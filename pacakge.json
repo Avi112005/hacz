@@ -1,0 +1,29 @@
+{
+    "name": "groqmate-assistant",
+    "version": "1.0.0",
+    "description": "An AI-powered multilingual assistant with chat, vision, and voice features using Groq and Gemini.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "@google/generative-ai": "^0.6.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "fluent-ffmpeg": "^2.1.2",
+      "fs": "0.0.1-security",
+      "groq-sdk": "^0.5.0",
+      "multer": "^1.4.5-lts.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.2"
+    },
+    "engines": {
+      "node": ">=16"
+    }
+  }
+  
